@@ -1,0 +1,211 @@
+{
+    "editor.fontSize": 13,
+    "editor.fontFamily": "Iosevka, Consolas, 'Courier New', monospace",
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/CVS": true,
+        "**/__pycache__": true
+    },
+    "python.venvPath": "~/AppData/Local/Continuum/Anaconda3/envs",
+    "sortJSON.orderOverride": [
+        "before",
+        "after"
+    ],
+    "vim.easymotion": true,
+    "vim.leader": "<space>",
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "U"
+            ],
+            "after": [
+                "<C-r>"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                ":"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "args": [],
+                    "command": "workbench.action.showCommands"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                " "
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "args": [],
+                    "command": "workbench.action.quickOpen"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "s"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "args": [],
+                    "command": "workbench.action.files.save"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "f"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "args": [],
+                    "command": "workbench.action.quickOpen"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "h"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "args": [],
+                    "command": "workbench.action.focusPreviousGroup"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "l"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "args": [],
+                    "command": "workbench.action.focusNextGroup"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "|"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "args": [],
+                    "command": "workbench.action.splitEditor"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "1"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "args": [],
+                    "command": "workbench.action.focusFirstEditorGroup"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "2"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "args": [],
+                    "command": "workbench.action.focusSecondEditorGroup"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "3"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "args": [],
+                    "command": "workbench.action.focusThirdEditorGroup"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "o"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "args": [],
+                    "command": "workbench.action.openPreviousRecentlyUsedEditorInGroup"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "O"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "args": [],
+                    "command": "workbench.action.openNextRecentlyUsedEditorInGroup"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "w"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "args": [],
+                    "command": "workbench.action.navigateEditorGroups"
+                }
+            ]
+        }
+    ],
+    "vim.useCtrlKeys": true,
+    "vim.useSystemClipboard": true,
+    "window.menuBarVisibility": "toggle",
+    "workbench.editor.showTabs": false,
+    "workbench.colorTheme": "Visual Studio Dark"
+}
